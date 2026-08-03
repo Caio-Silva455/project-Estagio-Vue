@@ -34,7 +34,7 @@ const corSituacao = computed(
   <div class="carteirinha">
     <header class="carteirinha__topo">
       <div class="carteirinha__instituicao">
-        <span class="carteirinha__logo">📚</span>
+        <span class="carteirinha__logo"></span>
         <strong>{{ instituicao }}</strong>
       </div>
       <span class="carteirinha__situacao" :style="{ backgroundColor: corSituacao }">
