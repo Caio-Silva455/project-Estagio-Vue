@@ -63,7 +63,6 @@ const avisos = ref([
       <h2>O que oferecemos</h2>
       <div class="destaques">
         <article v-for="d in destaques" :key="d.id" class="destaque-card">
-          <span class="destaque-card__icone">{{ d.icone }}</span>
           <h3>{{ d.titulo }}</h3>
           <p>{{ d.descricao }}</p>
         </article>
