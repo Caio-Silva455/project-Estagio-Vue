@@ -5,7 +5,6 @@ const recolhido = ref(false)
 
 const links = [
   { rota: '/', texto: 'Início' },
-  { rota: '/sobre', texto: 'Sobre' },
   { rota: '/parcerias', texto: 'Parcerias' },
   { rota: '/carteirinha', texto: 'Carteirinha de Estudante' },
 ]
