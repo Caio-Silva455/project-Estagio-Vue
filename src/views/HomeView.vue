@@ -46,7 +46,7 @@ const avisos = ref([
           letivo.
         </p>
         <div class="hero__acoes">
-          <RouterLink to="/sobre" class="botao botao--primario">Conhecer a biblioteca</RouterLink>
+          <h3 to="" class="botao botao--primario">Conhecer a biblioteca</h3>
           <RouterLink to="/parcerias" class="botao botao--secundario">Nossas parcerias</RouterLink>
         </div>
       </div>
